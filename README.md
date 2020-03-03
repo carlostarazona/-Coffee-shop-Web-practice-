@@ -5,4 +5,5 @@
 ## Empleando el efecto Parallax
 ## Utilizando Jquery con el scrolltop y el translate para crear ese efecto de moviento 
 
-![](https://imgflip.com/gif/3r84ln)
+
+![](https://s5.gifyu.com/images/ezgif-2-793c390cc422-2.gif)
