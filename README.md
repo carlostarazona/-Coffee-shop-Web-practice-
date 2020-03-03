@@ -6,4 +6,4 @@
 ## Utilizando Jquery con el scrolltop y el translate para crear ese efecto de moviento 
 
 
-![](https://s5.gifyu.com/images/ezgif-2-793c390cc422-2.md.gif)
+![](https://media.giphy.com/media/RibtJhWlHoj7aAPhe1/giphy.gif)
