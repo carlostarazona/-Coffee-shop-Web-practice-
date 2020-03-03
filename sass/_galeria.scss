@@ -1,0 +1,28 @@
+ .galeria
+    {
+      margin-bottom: 40px;
+     
+        .contenedor
+        {      
+            overflow: hidden;
+             .imagen
+            {
+                float: left;
+                width: 25%;
+                opacity: 0.5;
+               
+               img
+               {
+                width: 100%;
+                vertical-align: top;
+                height: 100%;
+               }
+               &:hover
+               {
+                   opacity: 1;
+                   transition: all .3s ease;
+               }
+            }
+        }
+     
+    }

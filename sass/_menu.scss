@@ -1,0 +1,78 @@
+
+    .menu
+    {
+        padding-top: 620px;
+        margin-bottom: 40px;
+        line-height: 27px;
+        .contenedor
+        {
+        text-align: center;
+
+        .titulo
+        {
+            font-weight: 300;
+            font-size: 28px;
+            margin-bottom: 25px; 
+           
+        }
+        .contenedor-menu1
+        {
+            display: block;
+            width: 65%;
+            margin: 0 auto;
+            background: transparent;
+            border: 1px solid black;
+           
+            .contenedor-menu2
+            {
+                margin: 10px;
+                background: transparent;
+                border: 1px solid black;
+                overflow: hidden;
+                padding-bottom: 40px;
+                article
+                {
+                    float: left;
+                    width: 50%;
+                    padding:20px;
+                    .categoria
+                    {
+                        font-size: 19px;
+                        font-weight: 700;
+                        margin: 20px;
+                    }
+                    .platillo
+                    {
+                        margin: 15px;
+                        padding-bottom: 10px;
+                        border-bottom: 2px dotted black;
+
+    
+                        .nombre 
+                        {
+                          font-weight: bold;
+                          margin-bottom: 5px;
+                          float: left;
+                           
+                        }
+                        .precio
+                        {
+                            float: right;
+                            font-weight: bold;
+                           
+                        }
+                        .descripcion
+                        {
+                            clear: both;
+                          text-align: left;
+                          font-size: 14px;
+                          opacity: 0.5;
+                    
+                        }
+                    }
+                }
+            }
+        }
+      }
+    }    
+    

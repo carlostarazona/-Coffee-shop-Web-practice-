@@ -1,0 +1,349 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background: url(../img/cafe.jpg) #281a0c;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-height: 700px;
+  overflow: hidden;
+}
+header .contenedor {
+  height: 550px;
+}
+header .contenedor nav {
+  text-align: right;
+  margin-right: 300px;
+}
+header .contenedor nav a {
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  font-weight: 300;
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+header .contenedor nav a:hover {
+  text-decoration: underline;
+}
+header .contenedor .Restaurante {
+  color: white;
+  margin: 190px 0 190px 310px;
+  font-size: 18px;
+  position: absolute;
+}
+header .contenedor .Restaurante .nombre {
+  font-weight: 700;
+}
+header .contenedor .Restaurante .nombre h1 {
+  margin: 0;
+  padding: 0;
+}
+header .contenedor .Restaurante .nombre h1 span {
+  font-weight: 300;
+}
+header .contenedor .Restaurante .nombre p {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.main {
+  background: url(../img/email-pattern.png);
+  background-repeat: repeat;
+}
+.main .acerca-de
+{
+  width: 90%;
+  margin: 0 auto;
+}
+.main .acerca-de .contenedor {
+  overflow: visible;
+  position: relative;
+}
+.main .acerca-de .contenedor .foto {
+  width: 50%;
+  position: absolute;
+  top: -70px;
+  z-index: 0;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+  margin-left: 200px;
+}
+.main .acerca-de .contenedor .foto img {
+  vertical-align: top;
+  width: 100%;
+  height: 320px;
+}
+.main .acerca-de article {
+  background: #fff;
+  padding: 40px;
+  width: 500px;
+  position: relative;
+  top: 450px;
+  margin-right: 250px;
+  float: right;
+  z-index: 1;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+}
+
+
+.main .acerca-de article h3 {
+  font-weight: 300;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.main .acerca-de article p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.menu {
+  padding-top: 620px;
+  margin-bottom: 40px;
+  line-height: 27px;
+}
+.menu .contenedor {
+  text-align: center;
+}
+.menu .contenedor .titulo {
+  font-weight: 300;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.menu .contenedor .contenedor-menu1 {
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+  background: transparent;
+  border: 1px solid black;
+}
+.menu .contenedor .contenedor-menu1 .contenedor-menu2 {
+  margin: 10px;
+  background: transparent;
+  border: 1px solid black;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.menu .contenedor .contenedor-menu1 .contenedor-menu2 article {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+.menu .contenedor .contenedor-menu1 .contenedor-menu2 article .categoria {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 20px;
+}
+.menu .contenedor .contenedor-menu1 .contenedor-menu2 article .platillo {
+  margin: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted black;
+}
+.menu .contenedor .contenedor-menu1 .contenedor-menu2 article .platillo .nombre {
+  font-weight: bold;
+  margin-bottom: 5px;
+  float: left;
+}
+.menu .contenedor .contenedor-menu1 .contenedor-menu2 article .platillo .precio {
+  float: right;
+  font-weight: bold;
+}
+.menu .contenedor .contenedor-menu1 .contenedor-menu2 article .platillo .descripcion {
+  clear: both;
+  text-align: left;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+
+.galeria .contenedor {
+  overflow: hidden;
+}
+.galeria .contenedor .imagen {
+  float: left;
+  width: 25%;
+  opacity: 0.5;
+}
+.galeria .contenedor .imagen img {
+  width: 100%;
+  vertical-align: top;
+  height: 100%;
+}
+.galeria .contenedor .imagen:hover {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.ubicacion {
+  background: white;
+  padding: 60px 0;
+}
+.ubicacion .contenedor {
+  margin: 0 19%;
+}
+.ubicacion .contenedor .titulo {
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.ubicacion .contenedor .direccion {
+  display: inline-block;
+  width: 49%;
+  text-align: left;
+}
+.ubicacion .contenedor .direccion .calle {
+  margin-bottom: 15px;
+}
+.ubicacion .contenedor .direccion .correo {
+  margin-bottom: 40px;
+}
+.ubicacion .contenedor .horarios {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+}
+.ubicacion .contenedor .horarios h4 {
+  margin-bottom: 15px;
+}
+.ubicacion .contenedor .horarios p {
+  display: inline-block;
+  width: 49%;
+}
+
+.mapa iframe {
+  width: 100%;
+  overflow: hidden;
+  max-height: 600px;
+}
+
+footer .contenedor {
+  background: black;
+  color: white;
+  text-align: center;
+}
+footer .contenedor p {
+  padding: 15px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
+
+@media screen and (max-width: 550px)
+{
+  .menu {
+    padding-top: 690px;
+  }
+
+
+}
+
+
+/*----------Media-Queris---------------*/
+
+@media screen and (max-width: 800px)
+{
+
+  .ubicacion .contenedor .direccion
+  {
+    margin-bottom: 15px;
+  }
+  .ubicacion .contenedor .direccion,
+  .ubicacion .contenedor .horarios
+  {
+    width: 100%;
+    text-align: center;
+  }
+  header .contenedor
+  {
+
+    position: static;
+    height: auto;
+  }
+  header .contenedor .Restaurante
+  {
+    position: static;
+    margin: 100px 100px;
+  }
+  header .contenedor nav
+  {
+    margin-right: 0px;
+    text-align: center;
+  }
+  
+  header .contenedor nav a
+  {
+    margin: 10px 20px;
+  }
+
+  header .Restaurante .nombre 
+  {
+    font-size: 13px;
+  }
+  header .Restaurante .h3 
+  {
+    font-size: 6px;
+  }
+
+  .main .acerca-de .contenedor .foto
+  {
+    top:0px;
+    width: 100%;
+    margin: 0px auto;
+
+  }
+  .main .acerca-de article
+  {
+    top:300px;
+    margin-right: 0;   
+    position: relative;
+    width: 100%;
+    transform:translate(0px,0);
+  }
+
+  .menu .contenedor .contenedor-menu1 .contenedor-menu2 article
+  {
+    width: 100%;
+  }
+  .galeria .contenedor .imagen
+  {
+    width: 50%;
+  }
+
+  .main .mapa
+  {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:400px)
+{
+  .main .acerca-de article h3
+  {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .menu .contenedor .contenedor-menu1 .contenedor-menu2 article .platillo .nombre,
+  .menu .contenedor .contenedor-menu1 .contenedor-menu2 article .platillo .precio
+  {
+    width: 100%;
+    text-align: center;
+  }
+  
+}

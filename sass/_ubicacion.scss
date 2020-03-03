@@ -1,0 +1,60 @@
+.ubicacion
+{
+    background: white;
+    padding: 60px 0;
+   .contenedor
+   {
+    
+    margin: 0 19%;
+
+       .titulo
+       {
+    
+           text-align: center;
+           font-size: 24px;
+           line-height: 24px;
+           font-weight: 300;
+           margin-bottom: 15px;
+       }
+
+       .direccion 
+       {
+           display: inline-block;
+           width: 49%;
+           text-align: left;
+           .calle
+           {
+               margin-bottom: 15px;
+           }
+           .correo
+           {
+            margin-bottom: 40px;
+           }
+         
+          
+       }
+       .horarios
+       {
+        display: inline-block;
+        width: 49%;
+        text-align: center;
+        h4
+        {
+            margin-bottom: 15px;
+        }
+        p
+        {
+            display: inline-block;
+            width: 49%;
+        }
+      
+       }
+   }
+}
+
+.mapa iframe
+{
+    width: 100%;
+    overflow: hidden;
+    max-height: 600px;
+}
