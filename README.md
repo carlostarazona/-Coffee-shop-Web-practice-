@@ -2,8 +2,8 @@
 
 ## Practica con el fin de perfeccionar mis conocimientos en el desarrollo web 🚀🚀
 
-##Empleando el efecto Parallax
-##Utilizando Jquery con el scrolltop y el translate para crear ese efecto de moviento 
+## Empleando el efecto Parallax
+## Utilizando Jquery con el scrolltop y el translate para crear ese efecto de moviento 
 
-![](https://imgur.com/dtdYU6F.mp4)
+![](https://imgur.com/a/AgOjnLv.gif)
 
