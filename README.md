@@ -6,8 +6,6 @@
 ## Utilizando Jquery con el scrolltop y el translate para crear ese efecto de moviento 
 
 
-<img src="https://s5.gifyu.com/images/ezgif-2-793c390cc422-1.gif" width="300">
+<img src="https://media.giphy.com/media/XcMlFJDao3olcGQPSL/giphy.gif" width="300">
 
-<a href="https://gifyu.com/image/IEUT">
-  <img src="https://s5.gifyu.com/images/ezgif-2-793c390cc422-1.gif" alt="ezgif-2-793c390cc422-1.gif" border="0" />
-</a>
+
