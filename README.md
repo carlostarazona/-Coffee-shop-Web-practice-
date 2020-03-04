@@ -6,5 +6,4 @@
 ## Utilizando Jquery con el scrolltop y el translate para crear ese efecto de moviento 
 
 
-
-<img src="https://imgur.com/Tlfl8m5.gif" width="600">
+<iframe class="imgur-embed" width="100%" height="308" frameborder="0" src="https://i.imgur.com/Tlfl8m5.gifv#embed"></iframe>
